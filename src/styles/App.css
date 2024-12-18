@@ -1,0 +1,150 @@
+/* src/styles/App.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white; /* White background */
+    color: #333; /* Dark text for readability */
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.8); /* Dark background for nav */
+    color: white;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #007bff; /* Change link color on hover */
+}
+
+h1 {
+    color: #333; /* Dark color for main headers */
+}
+
+h2 {
+    color: #555; /* Slightly lighter gray for secondary headers */
+}
+
+.summary, form {
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white for form and summary */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+form {
+    max-width: 500px;
+}
+
+input {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px;
+    background-color: #f9f9f9; /* Light gray background for inputs */
+    color: #333; /* Dark text inside inputs */
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff; /* Blue background for buttons */
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: white; /* White table background */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05); /* Light shadow for the table */
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background-color: #f8f9fa; /* Light gray for table headers */
+    color: #333; /* Dark text for headers */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternating row colors */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    nav {
+        padding: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        margin: 5px 0;
+    }
+
+    form, .summary {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    table {
+        font-size: 0.9em;
+        overflow-x: auto;
+        display: block;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.3em;
+    }
+
+    button {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
