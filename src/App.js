@@ -5,7 +5,7 @@ import Navbar from './components/Navbar';
 import RegisterStudent from './pages/RegisterStudent';
 import ListStudents from './pages/ListStudents';
 import StudentDetailsPage from './pages/StudentDetailsPage';
-import Dashboard from './components/Dashboard'; // Make sure this component exists
+import Dashboard from './components/Dashboard/Dashboard'; // Make sure this component exists
 import './styles/App.css';
 
 const App = () => {

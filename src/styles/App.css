@@ -9,8 +9,8 @@ body {
 }
 
 nav {
-    background-color: rgba(0, 0, 0, 0.8); /* Dark background for nav */
-    color: white;
+    background-color: rgba(236, 230, 230, 0.988); /* Dark background for nav */
+    color: rgb(29, 25, 25);
     padding: 15px;
     position: sticky;
     top: 0;
@@ -28,7 +28,10 @@ nav a {
 }
 
 nav a:hover {
-    color: #007bff; /* Change link color on hover */
+    color: #d6d3d3; /* Change link color on hover */
+    nav{
+        background-color: black;
+    }
 }
 
 h1 {
