@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/innomatics8/static/css/main.9c4f63f4.css",
+    "main.js": "/innomatics8/static/js/main.78185fc0.js",
+    "index.html": "/innomatics8/index.html",
+    "main.9c4f63f4.css.map": "/innomatics8/static/css/main.9c4f63f4.css.map",
+    "main.78185fc0.js.map": "/innomatics8/static/js/main.78185fc0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c4f63f4.css",
+    "static/js/main.78185fc0.js"
+  ]
+}
