@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.1db2bb2c.css",
-    "main.js": "/static/js/main.f3b35661.js",
-    "index.html": "/index.html",
-    "main.1db2bb2c.css.map": "/static/css/main.1db2bb2c.css.map",
-    "main.f3b35661.js.map": "/static/js/main.f3b35661.js.map"
+    "main.css": "/INNOMATICS/static/css/main.1db2bb2c.css",
+    "main.js": "/INNOMATICS/static/js/main.a9f870c8.js",
+    "index.html": "/INNOMATICS/index.html",
+    "main.1db2bb2c.css.map": "/INNOMATICS/static/css/main.1db2bb2c.css.map",
+    "main.a9f870c8.js.map": "/INNOMATICS/static/js/main.a9f870c8.js.map"
   },
   "entrypoints": [
     "static/css/main.1db2bb2c.css",
-    "static/js/main.f3b35661.js"
+    "static/js/main.a9f870c8.js"
   ]
 }
